@@ -1,0 +1,91 @@
+Absolutely! Here’s a **concise list of Git commands** that you can put in your **README** for creating a repo, managing branches, and pushing code from VS Code. It’s **easy to follow and ATS/HR-friendly**.
+
+---
+
+# **Git & GitHub Command Cheat Sheet**
+
+### **1. Initialize a Git Repository**
+
+```bash
+git init
+```
+
+### **2. Check Current Branch**
+
+```bash
+git branch
+```
+
+### **3. Create & Switch to a New Branch**
+
+```bash
+git checkout -b new-branch-name
+```
+
+### **4. Stage Files**
+
+```bash
+git add .
+```
+
+* Stage all files in the folder.
+
+```bash
+git add <filename>
+```
+
+* Stage a specific file.
+
+### **5. Commit Changes**
+
+```bash
+git commit -m "Commit message"
+```
+
+### **6. Add Remote Repository**
+
+```bash
+git remote add origin <repository-URL>
+```
+
+### **7. Push Branch to GitHub**
+
+```bash
+git push -u origin new-branch-name
+```
+
+### **8. Rename Current Branch Locally**
+
+```bash
+git branch -m new-branch-name
+```
+
+### **9. Push Renamed Branch to GitHub & Set Upstream**
+
+```bash
+git push origin -u new-branch-name
+```
+
+### **10. Delete Old Remote Branch**
+
+```bash
+git push origin --delete old-branch-name
+```
+
+### **11. Pull Changes from Remote**
+
+```bash
+git pull origin branch-name
+```
+
+### **12. Check Remote URL**
+
+```bash
+git remote -v
+```
+
+---
+
+✅ This covers **all the basic workflow** from creating a repo, creating branches, committing code, pushing to GitHub, renaming branches, and syncing with remote.
+
+If you want, I can also make a **super-compact “VS Code Git one-liner workflow”** that you can copy-paste in your README for beginners. It’ll be just **5–6 commands to push a new branch**. Do you want me to do that?
